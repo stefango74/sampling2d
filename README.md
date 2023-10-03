@@ -11,3 +11,5 @@ Usage:
 sample2d input.svg outfile-basename epsilon [mindist] [maxdist] [maxedgelen]
 The optional arguments are in function of the bounding box diagonal of the control points
 
+There are some sample .SVG files in the subdirectory ./data
+I.e., you can try 'sample2d data/simple.svg test 0.33' to generate a 0.33-sampling of a simple curve
